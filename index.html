@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERGED DATAS</title>
+    <style>
+        table{
+            margin: 15px;
+        }
+
+        td,select {
+            text-align: left;
+            padding: 5px;
+            width: 300px;
+        }
+
+        body{
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(184, 190, 188);
+        }
+        
+        .put{
+            width: 500px;
+            height: 32px;
+            background-color: rgba(231, 235, 235, 0.91);
+            border: none;
+            padding-inline: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        .far{
+            margin: 50px;
+            margin-left: 200px;
+            margin-right: 200px;
+            border-color: rgb(117, 148, 148);
+        }
+
+        h1{
+            text-align: center;
+            padding-top: 25px;
+        }
+
+        p{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+        <h1>Zoo Keeper Application  Form</h1>
+        <p><em>Please complete the form. Mandatory fields are marked with a "<superscript style="color: red;">*</superscript>"</em></p> 
+        <fieldset class="far">
+            <legend style="padding: 15px;">CONTACT DETAILS</legend>
+            <center>
+            <table class="table">
+                <tr>
+                    <td>Name <superscript style="color: red;">*</superscript</td>
+                    <td><input type="text" class="put"></td>
+                <tr>
+                    <td>Telephone</td>
+                    <td><input type="number" class="put"></td>
+                </tr>
+                <tr>
+                    <td>Email <superscript style="color: red;">*</superscript></td>
+                    <td><input type="email" class="put"></td>
+                </tr>
+                </tr>  
+            </table>
+            </center>
+        </fieldset>
+
+        <fieldset class="far">
+            <legend style="padding: 15px;">PERSONAL DETAILS</legend>
+            <center>
+            <table class="table">
+                <tr>
+                    <td><superscript style="color: red;">*</superscript>Age</td>
+                    <td><input type="text" class="put"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                    <select style="width: 520px;" class="put">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>When did  you first know you wanted to be zoo-keeper?</td>
+                    <td>
+                        <select multiple style="height: 100px; width: 520px;" class="put"></select>
+                    </td>
+                </tr>
+            </table>
+            </center>
+        </fieldset>
+        <fieldset class="far">
+            <legend style="padding: 15px;">PICK YOUR FAVOURITE ANIMALS</legend>
+            <center>
+            <Table class="table">
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                        <label>Zebra</label>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <label>Cat</label>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <label>Anaconda</label>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <label>human</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                        <label>Elephant</label>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <label>Wildbeest</label>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <label>Pigeon</label>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <label>Crab</label>
+                    </td>
+                </tr>
+            </Table>
+            </center> 
+        </fieldset>
+        <table>
+            <tr>
+                <td><input type="submit" value="Submit Application" class="put" style="width: 200px; height: 50px; background-color: rgb(122, 121, 118);border-width: 0.15px; border-radius: 4px; margin-left: 200px;"></td>
+            </tr>
+        </table>
+</body>
+</html>
